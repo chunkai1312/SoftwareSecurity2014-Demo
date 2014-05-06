@@ -240,7 +240,8 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .menu-section {
@@ -262,7 +263,8 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     .menu-section {
@@ -360,7 +362,8 @@ body {
 }
 
 #menu {
-    background: url(../img/menu_bg.png);
+    /*border-top: 5px solid #808080;*/
+    background: url(../img/cubes.png);
 }
 
 #menu img {
@@ -389,4 +392,10 @@ footer > p {
 footer {
     border-top: 1px solid rgba(255,255,255,.3);
     background-color: #895117;
+}
+
+.img-thumbnail {
+    padding: 4px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
 }

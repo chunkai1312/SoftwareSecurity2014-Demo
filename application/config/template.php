@@ -26,12 +26,12 @@ $config['template_css'] = array(
  */
 $config['template_js'] = array(
     // Core JavaScript Files  
-    base_url() . '/assets/js/jquery-1.10.2.js' => TRUE,
-    base_url() . '/assets/js/bootstrap.min.js' => TRUE,
-    'http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js' => TRUE,
+    base_url() . '/assets/js/jquery-1.10.2.js' => FALSE,
+    base_url() . '/assets/js/bootstrap.min.js' => FALSE,
+    'http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js' => FALSE,
     
     // Google Maps API Key - You will need to use your own API key to use the map feature 
-    'https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false' => TRUE, 
+    'https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false' => FALSE, 
 );
 
 /**
