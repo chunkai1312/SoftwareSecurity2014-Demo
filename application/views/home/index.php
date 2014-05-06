@@ -38,6 +38,91 @@
     </div>
 </section>
 
+<section id="menu" class="content-section text-center">
+<!--     <div class="menu-section"> -->
+        <div class="container">
+            <h2 class="text-center text-success">杏福餐點</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="<?=base_url().'assets/img/menu/b03.jpg'?>" class="img-circle img-thumbnail" />
+                    <div class="caption">
+                        <p class="text-primary">五穀饅頭</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="<?=base_url().'assets/img/menu/b04.jpg'?>" class="img-circle img-thumbnail" />
+                    <p class="text-primary">黑糖饅頭</p>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="<?=base_url().'assets/img/menu/b08.jpg'?>" class="img-circle img-thumbnail" />
+                    <p class="text-primary">芋頭饅頭</p>
+                </div>                              
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="<?=base_url().'assets/img/menu/b10.jpg'?>" class="img-circle img-thumbnail" />
+                    <p class="text-primary">牛奶饅頭</p>
+                    </div>
+                <div class="col-md-4">
+                    <img src="<?=base_url().'assets/img/menu/b11.jpg'?>" class="img-circle img-thumbnail" />
+                    <p class="text-primary">奶酥饅頭</p>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="<?=base_url().'assets/img/menu/b13.jpg'?>" class="img-circle img-thumbnail" />
+                    <p class="text-primary">芋頭豆沙包</p>
+                </div>                              
+            </div> 
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="<?=base_url().'assets/img/menu/b16.jpg'?>" class="img-circle img-thumbnail" />
+                    <p class="text-primary">紅豆餅</p>
+                    </div>
+                <div class="col-md-4">
+                    <img src="<?=base_url().'assets/img/menu/b17.jpg'?>" class="img-circle img-thumbnail" />
+                    <p class="text-primary">花生餅</p>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="<?=base_url().'assets/img/menu/b19.jpg'?>" class="img-circle img-thumbnail" />
+                    <p class="text-primary">燒餅</p>
+                </div>                              
+            </div>     
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="<?=base_url().'assets/img/menu/b20.jpg'?>" class="img-circle img-thumbnail" />
+                    <p class="text-primary">刈包</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="<?=base_url().'assets/img/menu/b22.jpg'?>" class="img-circle img-thumbnail" />
+                    <p class="text-primary">菜包</p>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="<?=base_url().'assets/img/menu/b23.jpg'?>" class="img-circle img-thumbnail" />
+                    <p class="text-primary">小時候大餅(甜)</p>
+                </div>                              
+            </div> 
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="<?=base_url().'assets/img/menu/b26.jpg'?>" class="img-circle img-thumbnail" />
+                    <p class="text-primary">小時候大餅(鹹)</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="<?=base_url().'assets/img/menu/b27.jpg'?>" class="img-circle img-thumbnail" />
+                    <p class="text-primary">碗粿</p>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="<?=base_url().'assets/img/menu/b29.jpg'?>" class="img-circle img-thumbnail" />
+                    <p class="text-primary">肉包</p>
+                </div>                              
+            </div>                     
+        </div>
+    <!-- </div> -->
+</section>
+
 <div id="map"></div>
 
 <script>
