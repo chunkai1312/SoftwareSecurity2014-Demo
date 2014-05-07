@@ -31,7 +31,7 @@ $config['template_js'] = array(
     base_url() . '/assets/js/bootstrap.min.js' => FALSE,
     
     // Google Maps API Key - You will need to use your own API key to use the map feature 
-    'https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false' => FALSE, 
+    'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false' => FALSE, 
 );
 
 /**

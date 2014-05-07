@@ -11,6 +11,8 @@
 <title><?=$site_title?></title>
 <meta name="description" content="<?=$site_description?>" />
 <meta name="keywords" content="<?=$site_keywords?>" />
+<meta name="viewport" content="width=device-width">
+<link href="<?= base_url() ?>/assets/img/favicon.ico" rel="shortcut icon" type="image/ico" />
 <?=$meta_tag?>
 <?=$styles?>
 <?=$scripts_header?>

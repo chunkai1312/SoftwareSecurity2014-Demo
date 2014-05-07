@@ -3,10 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <!-- <h1 class="brand-heading">Grayscale</h1> -->
-                    
                     <img class="banner-logo" src="assets/img/logo.png" alt="logo" />
-                    
                     <p class="banner-text">Almond Happiness Breakfast Shop</p>
                     <div class="page-scroll">
                         <a href="#intro" class="btn btn-circle">
@@ -20,7 +17,6 @@
 </section>
 
 <section id="intro" class="content-section">
-
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
@@ -34,93 +30,88 @@
                 <p>米漿不含膽固醇也不含乳糖，適合乳糖不適症及對牛奶過敏的人食用。其香濃的味道及飽足感使的一般大眾喜歡在早餐時搭配早點一起享用，目前 還流行米漿與豆漿一起混合飲用，口味不甜不膩，也受到眾人喜愛。米漿中富含人體所需的不飽和脂肪酸、多種維生素及礦物質，營養豐富，適合運動者飲用；且性質溫和，是一種冷熱皆可的飲料，極易消化，尤其適合消化道較弱的人飲用。</p>
             </div>
         </div>
-
     </div>
 </section>
 
-<section id="menu" class="content-section text-center">
-<!--     <div class="menu-section"> -->
-        <div class="container">
-            <h2 class="text-center text-success">杏福餐點</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="<?=base_url().'assets/img/menu/b03.jpg'?>" class="img-circle img-thumbnail" />
-                    <div class="caption">
-                        <p class="text-primary">五穀饅頭</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <img src="<?=base_url().'assets/img/menu/b04.jpg'?>" class="img-circle img-thumbnail" />
-                    <p class="text-primary">黑糖饅頭</p>
-                </div>
-
-                <div class="col-md-4">
-                    <img src="<?=base_url().'assets/img/menu/b08.jpg'?>" class="img-circle img-thumbnail" />
-                    <p class="text-primary">芋頭饅頭</p>
-                </div>                              
+<section id="menu" class="content-section">
+    <div class="container">
+        <h2 class="text-center text-success">杏福餐點</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="<?=base_url().'assets/img/menu/b03.jpg'?>" class="img-circle img-thumbnail" />
+                <p class="text-primary">五穀饅頭</p>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="<?=base_url().'assets/img/menu/b10.jpg'?>" class="img-circle img-thumbnail" />
-                    <p class="text-primary">牛奶饅頭</p>
-                    </div>
-                <div class="col-md-4">
-                    <img src="<?=base_url().'assets/img/menu/b11.jpg'?>" class="img-circle img-thumbnail" />
-                    <p class="text-primary">奶酥饅頭</p>
-                </div>
+            <div class="col-md-4">
+                <img src="<?=base_url().'assets/img/menu/b04.jpg'?>" class="img-circle img-thumbnail" />
+                <p class="text-primary">黑糖饅頭</p>
+            </div>
 
-                <div class="col-md-4">
-                    <img src="<?=base_url().'assets/img/menu/b13.jpg'?>" class="img-circle img-thumbnail" />
-                    <p class="text-primary">芋頭豆沙包</p>
-                </div>                              
-            </div> 
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="<?=base_url().'assets/img/menu/b16.jpg'?>" class="img-circle img-thumbnail" />
-                    <p class="text-primary">紅豆餅</p>
-                    </div>
-                <div class="col-md-4">
-                    <img src="<?=base_url().'assets/img/menu/b17.jpg'?>" class="img-circle img-thumbnail" />
-                    <p class="text-primary">花生餅</p>
-                </div>
-
-                <div class="col-md-4">
-                    <img src="<?=base_url().'assets/img/menu/b19.jpg'?>" class="img-circle img-thumbnail" />
-                    <p class="text-primary">燒餅</p>
-                </div>                              
-            </div>     
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="<?=base_url().'assets/img/menu/b20.jpg'?>" class="img-circle img-thumbnail" />
-                    <p class="text-primary">刈包</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="<?=base_url().'assets/img/menu/b22.jpg'?>" class="img-circle img-thumbnail" />
-                    <p class="text-primary">菜包</p>
-                </div>
-
-                <div class="col-md-4">
-                    <img src="<?=base_url().'assets/img/menu/b23.jpg'?>" class="img-circle img-thumbnail" />
-                    <p class="text-primary">小時候大餅(甜)</p>
-                </div>                              
-            </div> 
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="<?=base_url().'assets/img/menu/b26.jpg'?>" class="img-circle img-thumbnail" />
-                    <p class="text-primary">小時候大餅(鹹)</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="<?=base_url().'assets/img/menu/b27.jpg'?>" class="img-circle img-thumbnail" />
-                    <p class="text-primary">碗粿</p>
-                </div>
-
-                <div class="col-md-4">
-                    <img src="<?=base_url().'assets/img/menu/b29.jpg'?>" class="img-circle img-thumbnail" />
-                    <p class="text-primary">肉包</p>
-                </div>                              
-            </div>                     
+            <div class="col-md-4">
+                <img src="<?=base_url().'assets/img/menu/b08.jpg'?>" class="img-circle img-thumbnail" />
+                <p class="text-primary">芋頭饅頭</p>
+            </div>                              
         </div>
-    <!-- </div> -->
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="<?=base_url().'assets/img/menu/b10.jpg'?>" class="img-circle img-thumbnail" />
+                <p class="text-primary">牛奶饅頭</p>
+                </div>
+            <div class="col-md-4">
+                <img src="<?=base_url().'assets/img/menu/b11.jpg'?>" class="img-circle img-thumbnail" />
+                <p class="text-primary">奶酥饅頭</p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="<?=base_url().'assets/img/menu/b13.jpg'?>" class="img-circle img-thumbnail" />
+                <p class="text-primary">芋頭豆沙包</p>
+            </div>                              
+        </div> 
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="<?=base_url().'assets/img/menu/b16.jpg'?>" class="img-circle img-thumbnail" />
+                <p class="text-primary">紅豆餅</p>
+                </div>
+            <div class="col-md-4">
+                <img src="<?=base_url().'assets/img/menu/b17.jpg'?>" class="img-circle img-thumbnail" />
+                <p class="text-primary">花生餅</p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="<?=base_url().'assets/img/menu/b19.jpg'?>" class="img-circle img-thumbnail" />
+                <p class="text-primary">燒餅</p>
+            </div>                              
+        </div>     
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="<?=base_url().'assets/img/menu/b20.jpg'?>" class="img-circle img-thumbnail" />
+                <p class="text-primary">刈包</p>
+            </div>
+            <div class="col-md-4">
+                <img src="<?=base_url().'assets/img/menu/b22.jpg'?>" class="img-circle img-thumbnail" />
+                <p class="text-primary">菜包</p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="<?=base_url().'assets/img/menu/b23.jpg'?>" class="img-circle img-thumbnail" />
+                <p class="text-primary">小時候大餅(甜)</p>
+            </div>                              
+        </div> 
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="<?=base_url().'assets/img/menu/b26.jpg'?>" class="img-circle img-thumbnail" />
+                <p class="text-primary">小時候大餅(鹹)</p>
+            </div>
+            <div class="col-md-4">
+                <img src="<?=base_url().'assets/img/menu/b27.jpg'?>" class="img-circle img-thumbnail" />
+                <p class="text-primary">碗粿</p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="<?=base_url().'assets/img/menu/b29.jpg'?>" class="img-circle img-thumbnail" />
+                <p class="text-primary">肉包</p>
+            </div>                              
+        </div>                     
+    </div>
 </section>
 
 <div id="map"></div>
@@ -131,16 +122,15 @@
         var mapOptions = {
             scrollwheel: false,
             zoom: 17,
-            center: new google.maps.LatLng(24.2091283,120.7069849)
+            center: new google.maps.LatLng(24.209973, 120.707072)
         };
         
         map = new google.maps.Map(document.getElementById('map'), mapOptions);
         
-        var image = 'assets/img/favicon.ico';
+        var image = 'assets/img/marker.png';
         var marker = new google.maps.Marker({
             position: map.getCenter(),
             map: map,
-            //title: 'Welcome to MA-300',
             icon: image,
             animation: google.maps.Animation.BOUNCE
         });
@@ -149,7 +139,7 @@
     }
 
     function infoEvent(marker) {
-        var contentString = "Welcome to IDSL <br/> Location: MA-300 <br/> PhoneNumber : 02-2733-3141 (Ext. 7904)";
+        var contentString = '<span class="text-danger">早回杏福<br />地址：台中市潭子區復興路二段130號之5</span>';
         var infowindow = new google.maps.InfoWindow({
             content: contentString
         });
