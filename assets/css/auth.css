@@ -66,27 +66,45 @@ html, body {
 .navbar .nav li a:focus,
 .navbar .nav li.active {
     outline: 0;
-    color: orange;
+    color: #fff;
     background-color: rgba(255,255,255,.2);
 }
 
-.navbar-toggle {
+.navbar-default .navbar-toggle {
+    border: 0;
     padding: 4px 6px;
     font-size: 16px;
     color: #fff;
 }
 
-.navbar-toggle:focus,
-.navbar-toggle:active {
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
     outline: 0;
+    background-color: transparent;
 }
-
 
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:hover, 
 .navbar-default .navbar-nav > .open > a:focus {
     background-color: rgba(255,255,255,.2);
     color: orange;
+}
+
+.navbar-default .dropdown-menu > li > a:hover, 
+.navbar-default .dropdown-menu > li > a:focus, 
+.navbar-default .dropdown-menu > li > a:active {
+    color: orange;
+}
+
+@media (max-width: 767px) {
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff; 
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, 
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff; 
+    background-color: rgba(255,255,255,.2);
+}
 }
 
 #footer {

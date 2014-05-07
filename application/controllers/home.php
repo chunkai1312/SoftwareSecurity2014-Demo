@@ -7,7 +7,7 @@ class Home extends CI_Controller {
         parent::__construct();
         
         // Custom Theme CSS
-        $this->template->add_css("assets/css/grayscale.css", "screen");
+        $this->template->add_css("assets/css/master.css", "screen");
         
         // Custom Theme JavaScript
         $this->template->add_js("assets/js/grayscale.js", TRUE);

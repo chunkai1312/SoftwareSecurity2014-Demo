@@ -2,9 +2,7 @@
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
+                <i class="fa fa-bars"></i>
 			</button>
 			<a class="navbar-brand" href="<?=base_url()?>">
                 <img src="<?=base_url()?>/assets/img/brand.png" / alt="早回杏福" />
